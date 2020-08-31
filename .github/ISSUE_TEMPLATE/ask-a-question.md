@@ -1,6 +1,6 @@
 ---
 name: Ask a Question
-about: Ask a question about this demo.
+about: Ask a question about this template.
 title: ""
 labels: question
 assignees: ""

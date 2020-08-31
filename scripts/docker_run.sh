@@ -2,7 +2,7 @@
 
 set -e
 
-echo "*** Start Substrate node demo ***"
+echo "*** Start Substrate node template ***"
 
 cd $(dirname ${BASH_SOURCE[0]})/..
 

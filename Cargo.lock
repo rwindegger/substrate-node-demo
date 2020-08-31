@@ -3268,11 +3268,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "node-demo"
+name = "node-template"
 version = "2.0.0-rc6"
 dependencies = [
  "jsonrpc-core",
- "node-demo-runtime",
+ "node-template-runtime",
  "pallet-transaction-payment-rpc",
  "sc-basic-authorship",
  "sc-cli",
@@ -3301,7 +3301,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "node-demo-runtime"
+name = "node-template-runtime"
 version = "2.0.0-rc6"
 dependencies = [
  "frame-executive",
@@ -3310,10 +3310,10 @@ dependencies = [
  "frame-system-rpc-runtime-api",
  "pallet-aura",
  "pallet-balances",
- "pallet-demo",
  "pallet-grandpa",
  "pallet-randomness-collective-flip",
  "pallet-sudo",
+ "pallet-template",
  "pallet-timestamp",
  "pallet-transaction-payment",
  "pallet-transaction-payment-rpc-runtime-api",
@@ -3529,18 +3529,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "pallet-demo"
-version = "2.0.0-rc6"
-dependencies = [
- "frame-support",
- "frame-system",
- "parity-scale-codec",
- "sp-core",
- "sp-io",
- "sp-runtime",
-]
-
-[[package]]
 name = "pallet-finality-tracker"
 version = "2.0.0-rc6"
 source = "git+https://github.com/paritytech/substrate.git?tag=v2.0.0-rc6#be8bb186d87b9d2b47a2907c9b51ae1e252362c3"
@@ -3623,6 +3611,18 @@ dependencies = [
  "sp-io",
  "sp-runtime",
  "sp-std",
+]
+
+[[package]]
+name = "pallet-template"
+version = "2.0.0-rc6"
+dependencies = [
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
 ]
 
 [[package]]

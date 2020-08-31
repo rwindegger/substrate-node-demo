@@ -1,4 +1,4 @@
-name: Build and Push demo
+name: Build and Push template
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
     - master
 
 jobs:
-  build-push-demo:
-    if: ${{ github.repository == 'substrate-developer-hub/substrate-node-demo' }}
+  build-push-template:
+    if: ${{ github.repository == 'substrate-developer-hub/substrate-node-template' }}
     runs-on: ubuntu-18.04
     steps:
     - name: Trigger playground inclusion
@@ -15,5 +15,5 @@ jobs:
       with:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
         repository: paritytech/substrate-playground
-        event-type: demo-updated
-        client-payload: '{"id": "node-demo"}'
+        event-type: template-updated
+        client-payload: '{"id": "node-template"}'

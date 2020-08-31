@@ -1,5 +1,5 @@
 {
-  "name": "Substrate Node demo",
+  "name": "Substrate Node template",
   "dockerFile": "Dockerfile",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
@@ -14,5 +14,5 @@
     3000,
     9944
   ],
-  "image": "paritytech/substrate-playground-demo-node-demo:sha-c9fda53"
+  "image": "paritytech/substrate-playground-template-node-template:sha-c9fda53"
 }
