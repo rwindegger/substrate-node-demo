@@ -3,8 +3,8 @@ authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
 edition = '2018'
 homepage = 'https://substrate.dev'
 license = 'Unlicense'
-name = 'node-template-runtime'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
+name = 'node-demo-runtime'
+repository = 'https://github.com/substrate-developer-hub/substrate-node-demo/'
 version = '2.0.0-rc6'
 
 [package.metadata.docs.rs]
@@ -159,10 +159,10 @@ git = 'https://github.com/paritytech/substrate.git'
 tag = 'v2.0.0-rc6'
 version = '2.0.0-rc6'
 
-[dependencies.template]
+[dependencies.demo]
 default-features = false
-package = 'pallet-template'
-path = '../pallets/template'
+package = 'pallet-demo'
+path = '../pallets/demo'
 version = '2.0.0-rc6'
 
 [features]
@@ -193,7 +193,7 @@ std = [
     'sp-std/std',
     'sp-transaction-pool/std',
     'sp-version/std',
-    'template/std',
+    'demo/std',
 ]
 
 [build-dependencies.wasm-builder-runner]
