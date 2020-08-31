@@ -3268,11 +3268,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "node-template"
+name = "node-demo"
 version = "2.0.0-rc6"
 dependencies = [
  "jsonrpc-core",
- "node-template-runtime",
+ "node-demo-runtime",
  "pallet-transaction-payment-rpc",
  "sc-basic-authorship",
  "sc-cli",
@@ -3301,7 +3301,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "node-template-runtime"
+name = "node-demo-runtime"
 version = "2.0.0-rc6"
 dependencies = [
  "frame-executive",
